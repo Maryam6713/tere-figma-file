@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.green{
+background-color: green;
+color: white;
+border-radius: 1px;
+}
+.green:hover{
+    background-color: white;
+    color: green;
+}
+.main{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: aqua; */
+}
+.head-one{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.para{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.button{
+    border-radius: 1px;
+}
+.section-two{
+    width: 100%;
+    height: 30vh;
+    /* background-color: aqua; */
+}
+.tags{
+    width: 100%;
+
+    background-color: green;
+}
+.para-two{
+    font-weight: bold;
+    color: white;
+}
+input{
+    width: 250px;
+}
+.button1{
+    width: 200px;
+    
+    background-color: black;
+    color: white;
+    border-radius: 1px;
+}
+b{
+    color: green;
+}
+.bold{
+    font-weight: bold;
+}
+.mobile{
+    position: relative;
+    right: 35%;
+}
+@media screen and (min-width:300px) and (max-width:991px) {
+  .top{
+    margin-top: 10%;
+  }
+}
